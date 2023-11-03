@@ -8,7 +8,7 @@ from assertDefinitions_pipeline import*
 from appium.webdriver.common.appiumby import AppiumBy
 from time import sleep
 
-def test_happy_path(environment_app):
+def test_multiple_products_cart(environment_app):
         
         #Start_test
 
@@ -17,6 +17,9 @@ def test_happy_path(environment_app):
 
         #select_product_in_cart
         add_product_cart()
+
+        #select_more_products
+        Select_multiple_products()
 
         #checkout_produt
         Checkout_logged_in()

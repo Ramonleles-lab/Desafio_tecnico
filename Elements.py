@@ -12,11 +12,11 @@ class  Elements_variable ():
     }
 
     #Login
-    login_email = ("//android.webkit.WebView[@text=\"Ionic App\"]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText")
+    login_email = "//android.webkit.WebView[@text=\"Ionic App\"]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText"
     login_email_value = "teste2023@gmail.com"
-    login_password = ("//android.widget.EditText[@text=\"Senha\"]")
+    login_password = "//android.widget.EditText[@text=\"Senha\"]"
     login_password_value = "6411638"
-    Button_login = "android.widget.Button"
+    Button_login = '//android.widget.Button[@text="Login"]'
 
     #Create_account
     Button_create_account = "//android.view.View[@text=\"Crie uma conta\"]"
@@ -32,12 +32,16 @@ class  Elements_variable ():
     select_product1 = "//android.widget.Image[@text=\"6489f06c4f5b6\"]"
     add_product1 = '//android.widget.Button[@text="+"]'
     add_button_cart = '//android.widget.Button[@text="Adicionar R$ 0"]'
+
+    #Checkout
     button_paymant = "//android.widget.Button[@text=\"Fazer Pagamento\"]"
     button_pay_now = "//android.widget.Button[@text=\"Pagar agora!\"]"
     button_ok = "//android.widget.Button[@text=\"OK\"]"
 
     #serch_field
-    search_field = "android.widget.EditText"
+    Elements_heroes = '(//android.view.View[@text="people Heróis"])[2]'
+    Select_heroes = '//android.widget.Image[@text="538615ca33ab0"]'
+    search_field = "//android.widget.EditText"
     search_field_value = "hulk"
     select_image = "//android.widget.Image[@text=\"5ba3ede961416\"]"
 
